@@ -1,0 +1,280 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D2A94CF15AF51A900CBAFBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2A94CE15AF51A900CBAFBF /* UIKit.framework */; };
+		5D2A94D115AF51A900CBAFBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2A94D015AF51A900CBAFBF /* Foundation.framework */; };
+		5D2A94D315AF51A900CBAFBF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D2A94D215AF51A900CBAFBF /* CoreGraphics.framework */; };
+		5D2A94D915AF51A900CBAFBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D2A94D715AF51A900CBAFBF /* InfoPlist.strings */; };
+		5D2A94DB15AF51A900CBAFBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A94DA15AF51A900CBAFBF /* main.m */; };
+		5D2A94DF15AF51AA00CBAFBF /* DoubleAlertAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A94DE15AF51AA00CBAFBF /* DoubleAlertAppDelegate.m */; };
+		5D2A94E215AF51AA00CBAFBF /* DoubleAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D2A94E115AF51AA00CBAFBF /* DoubleAlertViewController.m */; };
+		5D2A94E515AF51AA00CBAFBF /* DoubleAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D2A94E315AF51AA00CBAFBF /* DoubleAlertViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D2A94CA15AF51A900CBAFBF /* DoubleAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoubleAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D2A94CE15AF51A900CBAFBF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5D2A94D015AF51A900CBAFBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5D2A94D215AF51A900CBAFBF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5D2A94D615AF51A900CBAFBF /* DoubleAlert-Info.plist */ = {isa = PBXFileReference; path = "DoubleAlert-Info.plist"; sourceTree = "<group>"; };
+		5D2A94D815AF51A900CBAFBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D2A94DA15AF51A900CBAFBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D2A94DC15AF51A900CBAFBF /* DoubleAlert-Prefix.pch */ = {isa = PBXFileReference; path = "DoubleAlert-Prefix.pch"; sourceTree = "<group>"; };
+		5D2A94DD15AF51AA00CBAFBF /* DoubleAlertAppDelegate.h */ = {isa = PBXFileReference; path = DoubleAlertAppDelegate.h; sourceTree = "<group>"; };
+		5D2A94DE15AF51AA00CBAFBF /* DoubleAlertAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubleAlertAppDelegate.m; sourceTree = "<group>"; };
+		5D2A94E015AF51AA00CBAFBF /* DoubleAlertViewController.h */ = {isa = PBXFileReference; path = DoubleAlertViewController.h; sourceTree = "<group>"; };
+		5D2A94E115AF51AA00CBAFBF /* DoubleAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubleAlertViewController.m; sourceTree = "<group>"; };
+		5D2A94E415AF51AA00CBAFBF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DoubleAlertViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D2A94C715AF51A900CBAFBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2A94CF15AF51A900CBAFBF /* UIKit.framework in Frameworks */,
+				5D2A94D115AF51A900CBAFBF /* Foundation.framework in Frameworks */,
+				5D2A94D315AF51A900CBAFBF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D2A94BF15AF51A900CBAFBF = {
+			isa = PBXGroup;
+			children = (
+				5D2A94D415AF51A900CBAFBF /* DoubleAlert */,
+				5D2A94CD15AF51A900CBAFBF /* Frameworks */,
+				5D2A94CB15AF51A900CBAFBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D2A94CB15AF51A900CBAFBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D2A94CA15AF51A900CBAFBF /* DoubleAlert.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D2A94CD15AF51A900CBAFBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D2A94CE15AF51A900CBAFBF /* UIKit.framework */,
+				5D2A94D015AF51A900CBAFBF /* Foundation.framework */,
+				5D2A94D215AF51A900CBAFBF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D2A94D415AF51A900CBAFBF /* DoubleAlert */ = {
+			isa = PBXGroup;
+			children = (
+				5D2A94DD15AF51AA00CBAFBF /* DoubleAlertAppDelegate.h */,
+				5D2A94DE15AF51AA00CBAFBF /* DoubleAlertAppDelegate.m */,
+				5D2A94E015AF51AA00CBAFBF /* DoubleAlertViewController.h */,
+				5D2A94E115AF51AA00CBAFBF /* DoubleAlertViewController.m */,
+				5D2A94E315AF51AA00CBAFBF /* DoubleAlertViewController.xib */,
+				5D2A94D515AF51A900CBAFBF /* Supporting Files */,
+			);
+			path = DoubleAlert;
+			sourceTree = "<group>";
+		};
+		5D2A94D515AF51A900CBAFBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D2A94D615AF51A900CBAFBF /* DoubleAlert-Info.plist */,
+				5D2A94D715AF51A900CBAFBF /* InfoPlist.strings */,
+				5D2A94DA15AF51A900CBAFBF /* main.m */,
+				5D2A94DC15AF51A900CBAFBF /* DoubleAlert-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D2A94C915AF51A900CBAFBF /* DoubleAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D2A94E815AF51AA00CBAFBF /* Build configuration list for PBXNativeTarget "DoubleAlert" */;
+			buildPhases = (
+				5D2A94C615AF51A900CBAFBF /* Sources */,
+				5D2A94C715AF51A900CBAFBF /* Frameworks */,
+				5D2A94C815AF51A900CBAFBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoubleAlert;
+			productName = DoubleAlert;
+			productReference = 5D2A94CA15AF51A900CBAFBF /* DoubleAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D2A94C115AF51A900CBAFBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DoubleAlert;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 5D2A94C415AF51A900CBAFBF /* Build configuration list for PBXProject "DoubleAlert" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5D2A94BF15AF51A900CBAFBF;
+			productRefGroup = 5D2A94CB15AF51A900CBAFBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D2A94C915AF51A900CBAFBF /* DoubleAlert */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D2A94C815AF51A900CBAFBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2A94D915AF51A900CBAFBF /* InfoPlist.strings in Resources */,
+				5D2A94E515AF51AA00CBAFBF /* DoubleAlertViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D2A94C615AF51A900CBAFBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D2A94DB15AF51A900CBAFBF /* main.m in Sources */,
+				5D2A94DF15AF51AA00CBAFBF /* DoubleAlertAppDelegate.m in Sources */,
+				5D2A94E215AF51AA00CBAFBF /* DoubleAlertViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5D2A94D715AF51A900CBAFBF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D2A94D815AF51A900CBAFBF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5D2A94E315AF51AA00CBAFBF /* DoubleAlertViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D2A94E415AF51AA00CBAFBF /* en */,
+			);
+			name = DoubleAlertViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D2A94E615AF51AA00CBAFBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5D2A94E715AF51AA00CBAFBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5D2A94E915AF51AA00CBAFBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoubleAlert/DoubleAlert-Prefix.pch";
+				INFOPLIST_FILE = "DoubleAlert/DoubleAlert-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5D2A94EA15AF51AA00CBAFBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DoubleAlert/DoubleAlert-Prefix.pch";
+				INFOPLIST_FILE = "DoubleAlert/DoubleAlert-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D2A94C415AF51A900CBAFBF /* Build configuration list for PBXProject "DoubleAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D2A94E615AF51AA00CBAFBF /* Debug */,
+				5D2A94E715AF51AA00CBAFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D2A94E815AF51AA00CBAFBF /* Build configuration list for PBXNativeTarget "DoubleAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D2A94E915AF51AA00CBAFBF /* Debug */,
+				5D2A94EA15AF51AA00CBAFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D2A94C115AF51A900CBAFBF /* Project object */;
+}
