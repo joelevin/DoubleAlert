@@ -10,4 +10,7 @@
 
 @interface DoubleAlertViewController : UIViewController
 
+-(IBAction)leftButtonClicked:(id)sender;
+-(IBAction)rightButtonClicked:(id)sender;
+
 @end
