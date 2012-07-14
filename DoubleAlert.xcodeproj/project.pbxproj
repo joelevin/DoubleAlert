@@ -22,13 +22,13 @@
 		5D2A94CE15AF51A900CBAFBF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5D2A94D015AF51A900CBAFBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5D2A94D215AF51A900CBAFBF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5D2A94D615AF51A900CBAFBF /* DoubleAlert-Info.plist */ = {isa = PBXFileReference; path = "DoubleAlert-Info.plist"; sourceTree = "<group>"; };
+		5D2A94D615AF51A900CBAFBF /* DoubleAlert-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DoubleAlert-Info.plist"; sourceTree = "<group>"; };
 		5D2A94D815AF51A900CBAFBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5D2A94DA15AF51A900CBAFBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5D2A94DC15AF51A900CBAFBF /* DoubleAlert-Prefix.pch */ = {isa = PBXFileReference; path = "DoubleAlert-Prefix.pch"; sourceTree = "<group>"; };
-		5D2A94DD15AF51AA00CBAFBF /* DoubleAlertAppDelegate.h */ = {isa = PBXFileReference; path = DoubleAlertAppDelegate.h; sourceTree = "<group>"; };
+		5D2A94DC15AF51A900CBAFBF /* DoubleAlert-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DoubleAlert-Prefix.pch"; sourceTree = "<group>"; };
+		5D2A94DD15AF51AA00CBAFBF /* DoubleAlertAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleAlertAppDelegate.h; sourceTree = "<group>"; };
 		5D2A94DE15AF51AA00CBAFBF /* DoubleAlertAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubleAlertAppDelegate.m; sourceTree = "<group>"; };
-		5D2A94E015AF51AA00CBAFBF /* DoubleAlertViewController.h */ = {isa = PBXFileReference; path = DoubleAlertViewController.h; sourceTree = "<group>"; };
+		5D2A94E015AF51AA00CBAFBF /* DoubleAlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleAlertViewController.h; sourceTree = "<group>"; };
 		5D2A94E115AF51AA00CBAFBF /* DoubleAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubleAlertViewController.m; sourceTree = "<group>"; };
 		5D2A94E415AF51AA00CBAFBF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DoubleAlertViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
